@@ -1,4 +1,5 @@
 # leetcode
 | #  |Title	 | java	 |Difficulty|
 |----|-------|-------|----------|
-|0001|Two Sum|[Two Sum](https://github.com/kwy518/leetcode/blob/master/src/0001_Two%20Sum.java)	   	 | Easy     |
+|0001|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](https://github.com/kwy518/leetcode/blob/master/src/0001_Two%20Sum.java)	   	 | Easy     |
+
