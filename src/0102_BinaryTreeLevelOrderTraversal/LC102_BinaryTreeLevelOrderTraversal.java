@@ -31,5 +31,13 @@ public class LC102_BinaryTreeLevelOrderTraversal {
         tree.right.right = new TreeNode(7);
         LC102_BinaryTreeLevelOrderTraversal test1 = new LC102_BinaryTreeLevelOrderTraversal();
         System.out.println(test1.levelOrder(tree));
+        
+        /* Testcase:
+                3
+               /  \
+              9   20
+                  / \
+                 15  7 
+         */
     }
 }
