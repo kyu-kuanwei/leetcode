@@ -1,4 +1,5 @@
-public int numDecodings(String s) {
+public class LC91_DecodeWays {
+    public int numDecodings(String s) {
         int[] dp = new int[s.length() + 1];
         dp[0] = 1;
         dp[1] = 1;
@@ -16,4 +17,11 @@ public int numDecodings(String s) {
             }
         }
         return dp[s.length()];
+    }
+
+    public static void main(String[] args) {
+        LC91_DecodeWays test = new LC91_DecodeWays();
+        String test1 = "226";
+        System.out.println(test.numDecodings(test1));
+    }
 }
