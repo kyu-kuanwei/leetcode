@@ -3,8 +3,8 @@
     - f(n) = f(n-1) + f(n-2)
   
 2. f(n) = f(n-1) + f(n-2), but there are some conditions to be considered.
-    - Plus f(n - 1) only if #s(n) is not 0.
-    Since 0 do not match to any letter, for instance, "10" should only count 1 way to decode.
+    - Plus f(n - 1) only if **s(n) is not 0.**
+    Since 0 do not match to any letter, for instance, "10" should only count as 1 way to decode.
     ```
             if(s.charAt(i-1) != '0'){
                dp[i] += dp[i-1];
