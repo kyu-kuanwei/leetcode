@@ -7,7 +7,7 @@
         
         return t1.val == t2.val && helper(t1.left, t2.right) && helper(t1.right, t2.left);
     }
-```
+``` 
 
     - If one of the nodes is null, there are three possible conditions:
       - t1 and t2 are both null (the result will be True)
