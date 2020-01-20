@@ -18,9 +18,7 @@
    - If pos1 > pos2, the result of compare function will return a positive value.
    - If pos1 < pos2, the result of the function will return a negative value.
    - If all the pos1 = pos2, then we compare the length of s1, s2. 
-   ```
-      return s1.length() - s2.length();
-   ```
+   
      Since the question mentions that "blank character is less than any other character, so if s1 is longer than s2,
      we return a positive value, which means they are not in the order.
    
