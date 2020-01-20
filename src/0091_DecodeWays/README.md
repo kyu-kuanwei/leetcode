@@ -1,4 +1,4 @@
-1. We should think easier version:
+1. We should think the easier version:
     - Is similar to the ladder problem.
     - f(n) = f(n-1) + f(n-2)
   
