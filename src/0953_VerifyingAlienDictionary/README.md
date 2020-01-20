@@ -5,7 +5,7 @@
     newMap[order.charAt(i) - 'a'] = i;
   }
 ```
-2. Create a function to campare two strings are in order or not.
+2. Create a function to campare if these two strings are in order or not.
 3. The compare function:
 ```
     for(int i = 0, j = 0 ; i < s1.length() && j < s2.length(); i++, j++){
@@ -15,8 +15,8 @@
           return pos1 - pos2; 
     }
 ```
-   - If pos1 > pos2, the result of compare function will return a value > 0, which means s1 is smaller than s2.
-   - If pos1 < pos2, the result of the function will return a value < 0.
+   - If pos1 > pos2, the result of compare function will return a positive value.
+   - If pos1 < pos2, the result of the function will return a negative value.
    - If all the pos1 = pos2, then we compare the length of s1, s2. 
    ```
       return s1.length() - s2.length();
