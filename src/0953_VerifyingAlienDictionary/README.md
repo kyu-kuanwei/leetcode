@@ -1,5 +1,5 @@
 1. Create a map to record the new order of alphabets.
-```
+```Java
   int[] newMap = new int[26];
   for(int i = 0 ; i< order.length(); i++){
     newMap[order.charAt(i) - 'a'] = i;
@@ -7,7 +7,7 @@
 ```
 2. Create a function to campare if these two strings are in order or not.
 3. The compare function:
-```
+```Java
     for(int i = 0, j = 0 ; i < s1.length() && j < s2.length(); i++, j++){
        int pos1 = map[s1.charAt(i) - 'a'];
        int pos2 = map[s2.charAt(j) - 'a'];
@@ -23,7 +23,7 @@
      we return a positive value, which means they are not in the order.
    
 4. Traverse the words array, and compare every two strings is in order or not.
-```
+```Java
       for(int i = 1 ; i < words.length ; i++){
          int res = compare(words[i-1], words[i], newMap);
          if(res > 0)
