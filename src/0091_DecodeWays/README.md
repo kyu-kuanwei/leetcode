@@ -10,7 +10,7 @@
                dp[i] += dp[i-1];
             }
     ```
-    - Plus f(n - 2) only if the number composed of s(n-1) and s(n) is located from 10 - 26, which do match with a letter.
+    - Plus f(n - 2) only if the number composed of s(n-1) and s(n) is located from 10 to 26, which do match with a letter.
     ```java
             int n = (s.charAt(i-2) - '0') * 10 + (s.charAt(i-1) - '0');
             if(n <= 26 && n >= 10){
