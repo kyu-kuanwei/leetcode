@@ -10,7 +10,7 @@
 ```
 
    - If one of the nodes is null, there are three possible conditions:
-     - t1 and t2 are both null -> the result will be True
+     - Both t1 and t2 are null -> the result will be True
      - Either t1 or t2 is null -> the result will be false
      
        So we can easily use `return t1 == t2` to distinguish if they are both null or not.
