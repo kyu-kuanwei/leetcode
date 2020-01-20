@@ -13,7 +13,7 @@
      - t1 and t2 are both null -> the result will be True
      - Either t1 or t2 is null -> the result will be false
      
-        So we can easily use `return t1 == t2` to distinguish if they are both null or not
+       So we can easily use `return t1 == t2` to distinguish if they are both null or not.
    - Then we just need to compare every value of the pair nodes, and go down until whole tree are traversed.
   
   
