@@ -1,4 +1,4 @@
-1. The trivail one, **Recursion** version:
+1. The trivial one, **Recursion** version:
 ```Java
     public int maxDepth(TreeNode root) {
         if(root == null)    return 0;
