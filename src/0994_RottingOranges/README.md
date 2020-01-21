@@ -34,4 +34,4 @@
       }
       ```
  3. Note that, if freshCount can not decrease to __Zero__, the answer will be **-1**. 
-    It's because not all the fresh oranges could be rotten. Thus, the answer will be`return freshCount == 0 ? ans - 1 : -1;`
+    It's because not all the fresh oranges could be rotten. Moreover, the answer should minus 1, since we count the first day of rotten. Thus, the answer will be`return freshCount == 0 ? ans - 1 : -1;`
