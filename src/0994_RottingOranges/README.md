@@ -13,7 +13,7 @@
         }
         ```
  2. BFS:
-    - The rotting direction is only on x and y axis, therefore we can create a direction array as 
+    - The rotting direction is only on x and y axis, therefore, we can create a direction array as 
       ```java
          int[][] dirs = {{1,0}, {0,1}, {-1,0}, {0,-1}};
       ```
