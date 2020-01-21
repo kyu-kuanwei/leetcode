@@ -10,3 +10,4 @@
 |0102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](https://github.com/kwy518/leetcode/tree/master/src/0102_BinaryTreeLevelOrderTraversal)|Medium|
 |0953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[Java](https://github.com/kwy518/leetcode/tree/master/src/0953_VerifyingAlienDictionary)|Easy|
 |0993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Java](https://github.com/kwy518/leetcode/tree/master/src/0993_CousinsBinaryTree)|Easy|
+|0994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Java](https://github.com/kwy518/leetcode/tree/master/src/0994_RottingOranges)|Easy|
