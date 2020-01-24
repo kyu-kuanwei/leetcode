@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class LC739_DailyTemperatures {
+    //Brute Force version: (Time complexity is O(N^2))
     public int[] dailyTemperatures(int[] T) {
         int[] res = new int[T.length];
         for(int i = 0 ; i < T.length; i++) {
@@ -10,6 +11,20 @@ public class LC739_DailyTemperatures {
                     break;
                 }
             }
+        }
+        return res;
+    }
+    // Used Stack: (Time complexity is O(N))
+    public int[] dailyTemperatures_2(int[] T) {
+        Stack<Integer> stack = new Stack<>();
+        int[] res = new int[T.length];
+        
+        for(int i = 0 ; i < T.length ; i++) {
+            while(!stack.isEmpty() && T[i] > T[stack.peek()]){
+                int idx = stack.pop();
+                res[idx] = i - idx;
+            }
+            stack.push(i); // Store the element
         }
         return res;
     }
