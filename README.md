@@ -17,3 +17,4 @@
 |0993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Java](https://github.com/kwy518/leetcode/tree/master/src/0993_CousinsBinaryTree)|Easy|
 |0994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Java](https://github.com/kwy518/leetcode/tree/master/src/0994_RottingOranges)|Easy|
 |1333|[Filter Restaurants](https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/submissions/)|[Java](https://github.com/kwy518/leetcode/tree/master/src/1333_FilterRestaurants)|Medium|
+|1344|[Jump Game V](https://leetcode.com/problems/jump-game-v)|[Java](https://github.com/kwy518/leetcode/tree/master/src/1344_JumpGameV)|Hard|
