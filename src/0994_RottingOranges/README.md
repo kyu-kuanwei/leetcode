@@ -1,3 +1,5 @@
+# Leetcode 994. Rotting Oranges
+
 **BFS is a best solution here.**
   1. Construct the basic BFS structure.
      - Use `Queue<int[]>` to insert all the positions of rotten oranges to the queue by traversing the whole grid.
