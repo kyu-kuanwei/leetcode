@@ -1,3 +1,7 @@
+/*
+Created on Sat Feb 15 11:34:12 2020
+@author: Kuan Wei
+*/
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
