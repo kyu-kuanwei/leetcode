@@ -1,3 +1,7 @@
+/*
+Created on Sat Feb 15 20:53:12 2020
+@author: Kuan Wei
+*/
 class Solution {
     public List<List<Integer>> getSkyline(int[][] buildings) {
         List<List<Integer>> res = new ArrayList<>();
