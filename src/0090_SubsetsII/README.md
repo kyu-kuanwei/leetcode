@@ -26,7 +26,7 @@ __Modification:__
 Cope with the duplication.
 
   - Sort the `nums` first and
-  - Check if the current number is same as the last number or not. If it is same, do nothing, continue the for loop.
+  - Check if the current number is same as the last number or not. If they are the same, do nothing, continue the for loop.
 
 ```java
 if (i > start && nums[i] == nums[i-1]) {
